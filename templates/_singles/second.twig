@@ -1,0 +1,21 @@
+{% extends "_layout.twig" %} 
+{% set bodyAttributes ={ class: "second" } %} 
+{% set docTitle = entry.title %} 
+{# {% set metaDesc = entry.metaDescription %}  #}
+
+{% set page = craft.entries().section('second').all() %} 
+
+{% block content %} 
+    {% for entry in page %} 
+            {% if entry.title %}
+                <h1>{{entry.title}}</h1>
+
+                <div> {{ entry.testCkeditor }}</div>
+                <p> {{ entry.testText }}</p>
+                   
+                <div>
+                    {{ sprig('_components/search.twig') }}
+                </div>
+            {% endif %}
+    {% endfor %} 
+{% endblock %}

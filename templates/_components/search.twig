@@ -1,0 +1,35 @@
+{# Sets to a default value if not defined #}
+{% set query = query ?? '' %}
+
+{% if sprig.isInclude %}
+    <input sprig type="text" name="query" value="{{ query }}"
+        s-trigger="keyup changed delay:300ms" 
+        s-target="#results"
+    >
+
+    <div id="results">
+    
+    </div>
+{% endif %}
+
+
+{% set searchableEntries = craft.entries().search(query).all() %}
+
+{# <ul>
+    {% for entry in searchableEntries %}
+        <li>{{ entry.title }} - Found: {{ query }}</li>
+    {% endfor %}
+</ul> #}
+
+{% if query %}
+    {% set entries = craft.entries()
+        .search(query)
+        .orderBy('score')
+        .all() 
+    %}
+    {% for entry in entries %}
+        <p>{{ entry.title }} - Found: {{ query }}</p>
+        {# {{ entry.testCkeditor }}
+        {{ entry.testText }} #}
+   {% endfor %}
+{% endif %}

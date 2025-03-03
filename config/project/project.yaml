@@ -1,4 +1,4 @@
-dateModified: 1740974374
+dateModified: 1741045019
 email:
   fromEmail: $EMAIL
   fromName: testsite
@@ -11,9 +11,19 @@ email:
   transportType: craft\mailgun\MailgunAdapter
 meta:
   __names__:
+    0ca2aadd-5e32-458e-9b96-c3bbabef37f7: Simple # Simple
+    4c86be29-2c47-4966-b320-1cdae9b25580: 'Test CKEditor' # Test CKEditor
+    7bf5cf40-ee14-4355-8aab-b5de30475736: Home # Home
     8f81e28d-8195-41d2-a911-205d5b098a9c: testsite # testsite
+    97d3dfc7-ca9f-40fb-9c60-eb3e8239136b: 'Test Text' # Test Text
+    a19d5dc6-7462-4a42-b009-e7aaf9c1cc04: Home # Home
     a42aa75e-70e1-44a8-867b-71f11ba1bc16: testsite # testsite
+    b1e9f265-767c-4dca-9511-55b54f4a5701: Second # Second
 plugins:
+  ckeditor:
+    edition: standard
+    enabled: true
+    schemaVersion: 3.0.0.0
   contact-form:
     edition: standard
     enabled: true
@@ -37,6 +47,10 @@ plugins:
     edition: standard
     enabled: true
     schemaVersion: 1.0.0
+  sprig:
+    edition: standard
+    enabled: true
+    schemaVersion: 1.0.1
   webhooks:
     edition: standard
     enabled: true
