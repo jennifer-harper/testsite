@@ -1,12 +1,46 @@
-dateModified: 1740951389
+dateModified: 1740974374
 email:
-  fromEmail: jennnnifer.harper@gmail.com
+  fromEmail: $EMAIL
   fromName: testsite
-  transportType: craft\mail\transportadapters\Sendmail
+  replyToEmail: $EMAIL
+  template: null
+  transportSettings:
+    apiKey: $MAILGUN
+    domain: mg.sweetie-darling.com
+    endpoint: ''
+  transportType: craft\mailgun\MailgunAdapter
 meta:
   __names__:
     8f81e28d-8195-41d2-a911-205d5b098a9c: testsite # testsite
     a42aa75e-70e1-44a8-867b-71f11ba1bc16: testsite # testsite
+plugins:
+  contact-form:
+    edition: standard
+    enabled: true
+    schemaVersion: 1.0.0
+    settings:
+      allowAttachments: ''
+      allowedMessageFields: null
+      prependSender: 'On behalf of'
+      prependSubject: 'New message from testsite'
+      successFlashMessage: 'Your message has been sent.'
+      toEmail: $EMAIL
+  contact-form-extensions:
+    edition: standard
+    enabled: true
+    schemaVersion: 1.0.1
+  copy:
+    edition: standard
+    enabled: true
+    schemaVersion: 1.0.0
+  mailgun:
+    edition: standard
+    enabled: true
+    schemaVersion: 1.0.0
+  webhooks:
+    edition: standard
+    enabled: true
+    schemaVersion: 2.4.0
 system:
   edition: solo
   live: true
