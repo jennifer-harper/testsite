@@ -1,14 +1,12 @@
-dateModified: 1741050894
+dateModified: 1741052201
 email:
   fromEmail: $EMAIL
   fromName: testsite
   replyToEmail: $EMAIL
   template: null
   transportSettings:
-    apiKey: $MAILGUN
-    domain: mg.sweetie-darling.com
-    endpoint: ''
-  transportType: craft\mailgun\MailgunAdapter
+    command: '/usr/local/bin/mailpit sendmail -t --smtp-addr 127.0.0.1:1025'
+  transportType: craft\mail\transportadapters\Sendmail
 meta:
   __names__:
     0ca2aadd-5e32-458e-9b96-c3bbabef37f7: Simple # Simple
