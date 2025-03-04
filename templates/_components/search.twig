@@ -16,12 +16,6 @@
 
 {% set searchableEntries = craft.entries().search(query).all() %}
 
-{# <ul>
-    {% for entry in searchableEntries %}
-        <li>{{ entry.title }} - Found: {{ query }}</li>
-    {% endfor %}
-</ul> #}
-
 {% if query %}
     {% set entries = craft.entries()
         .search(query)
@@ -30,7 +24,5 @@
     %}
     {% for entry in entries %}
         <p>{{ entry.title }} - Found: {{ query }}</p>
-        {# {{ entry.testCkeditor }}
-        {{ entry.testText }} #}
    {% endfor %}
 {% endif %}

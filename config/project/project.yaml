@@ -1,4 +1,4 @@
-dateModified: 1741045019
+dateModified: 1741050894
 email:
   fromEmail: $EMAIL
   fromName: testsite
@@ -35,10 +35,6 @@ plugins:
       prependSubject: 'New message from testsite'
       successFlashMessage: 'Your message has been sent.'
       toEmail: $EMAIL
-  contact-form-extensions:
-    edition: standard
-    enabled: true
-    schemaVersion: 1.0.1
   copy:
     edition: standard
     enabled: true
