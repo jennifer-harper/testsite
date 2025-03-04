@@ -1,4 +1,4 @@
-dateModified: 1741054553
+dateModified: 1741122424
 email:
   fromEmail: $EMAIL
   fromName: testsite
@@ -22,10 +22,22 @@ plugins:
     edition: standard
     enabled: true
     schemaVersion: 3.0.0.0
+  contact-form:
+    edition: standard
+    enabled: true
+    schemaVersion: 1.0.0
+  contact-form-honeypot:
+    edition: standard
+    enabled: true
+    schemaVersion: 1.0.0
   copy:
     edition: standard
     enabled: true
     schemaVersion: 1.0.0
+  sprig:
+    edition: standard
+    enabled: true
+    schemaVersion: 1.0.1
   webhooks:
     edition: standard
     enabled: true

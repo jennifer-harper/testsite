@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "25eb5c0446965eedec9781c67f07a19d",
+    "content-hash": "10dac1b1a3d07b3133d9a20162cecf08",
     "packages": [
         {
             "name": "albertofem/rsync-lib",
@@ -190,7 +190,7 @@
                 {
                     "name": "Carsten Brandt",
                     "email": "mail@cebe.cc",
-                    "homepage": "https://cebe.cc/",
+                    "homepage": "http://cebe.cc/",
                     "role": "Creator"
                 }
             ],
@@ -604,17 +604,17 @@
                 {
                     "name": "Nils Adermann",
                     "email": "naderman@naderman.de",
-                    "homepage": "https://www.naderman.de"
+                    "homepage": "http://www.naderman.de"
                 },
                 {
                     "name": "Jordi Boggiano",
                     "email": "j.boggiano@seld.be",
-                    "homepage": "https://seld.be"
+                    "homepage": "http://seld.be"
                 },
                 {
                     "name": "Rob Bast",
                     "email": "rob.bast@gmail.com",
-                    "homepage": "https://robbast.nl"
+                    "homepage": "http://robbast.nl"
                 }
             ],
             "description": "Semver library that offers utilities, version constraint parsing and validation.",
@@ -872,6 +872,109 @@
                 "rss": "https://github.com/craftcms/cms/releases.atom"
             },
             "time": "2025-02-26T19:27:31+00:00"
+        },
+        {
+            "name": "craftcms/contact-form",
+            "version": "3.1.0",
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/craftcms/contact-form/zipball/1cfc5cfeb137e868d094ea15c90c6b9c4bf02ea5",
+                "reference": "1cfc5cfeb137e868d094ea15c90c6b9c4bf02ea5",
+                "shasum": ""
+            },
+            "require": {
+                "craftcms/cms": "^4.0.0-beta.1|^5.0.0-beta.1",
+                "php": "^8.0.2"
+            },
+            "type": "craft-plugin",
+            "extra": {
+                "name": "Contact Form",
+                "handle": "contact-form",
+                "documentationUrl": "https://github.com/craftcms/contact-form/blob/v2/README.md",
+                "components": {
+                    "mailer": "craft\\contactform\\Mailer"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "craft\\contactform\\": "src/"
+                }
+            },
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Pixel & Tonic",
+                    "homepage": "https://pixelandtonic.com/"
+                }
+            ],
+            "description": "Add a simple contact form to your Craft CMS site",
+            "keywords": [
+                "cms",
+                "contact",
+                "craftcms",
+                "form",
+                "yii2"
+            ],
+            "support": {
+                "email": "support@craftcms.com",
+                "issues": "https://github.com/craftcms/contact-form/issues?state=open",
+                "source": "https://github.com/craftcms/contact-form",
+                "docs": "https://github.com/craftcms/contact-form/blob/v2/README.md",
+                "rss": "https://github.com/craftcms/contact-form/commits/v2.atom"
+            },
+            "time": "2024-03-11T22:40:47+00:00"
+        },
+        {
+            "name": "craftcms/contact-form-honeypot",
+            "version": "2.1.0",
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/craftcms/contact-form-honeypot/zipball/6f14f4ee20ae1f1cd2d6dfd4ef55be28c0e28426",
+                "reference": "6f14f4ee20ae1f1cd2d6dfd4ef55be28c0e28426",
+                "shasum": ""
+            },
+            "require": {
+                "craftcms/cms": "^4.0.0-RC3|^5.0.0-beta.1"
+            },
+            "type": "craft-plugin",
+            "extra": {
+                "name": "Contact Form Honeypot",
+                "handle": "contact-form-honeypot",
+                "documentationUrl": "https://github.com/craftcms/contact-form-honeypot/blob/main/README.md"
+            },
+            "autoload": {
+                "psr-4": {
+                    "craft\\contactform\\honeypot\\": "src/"
+                }
+            },
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Pixel & Tonic",
+                    "homepage": "https://pixelandtonic.com/"
+                }
+            ],
+            "description": "Add a honeypot captcha to your Craft CMS contact form",
+            "keywords": [
+                "cms",
+                "contact",
+                "craftcms",
+                "form",
+                "honeypot",
+                "yii2"
+            ],
+            "support": {
+                "email": "support@craftcms.com",
+                "issues": "https://github.com/craftcms/contact-form-honeypot/issues?state=open",
+                "source": "https://github.com/craftcms/contact-form-honeypot",
+                "docs": "https://github.com/craftcms/contact-form-honeypot/blob/main/README.md",
+                "rss": "https://github.com/craftcms/contact-form-honeypot/commits/main.atom"
+            },
+            "time": "2024-03-19T21:18:07+00:00"
         },
         {
             "name": "craftcms/html-field",
@@ -1436,11 +1539,11 @@
                 {
                     "name": "Edward Z. Yang",
                     "email": "admin@htmlpurifier.org",
-                    "homepage": "https://ezyang.com"
+                    "homepage": "http://ezyang.com"
                 }
             ],
             "description": "Standards compliant HTML filter written in PHP",
-            "homepage": "https://htmlpurifier.org/",
+            "homepage": "http://htmlpurifier.org/",
             "keywords": [
                 "html"
             ],
@@ -2465,7 +2568,7 @@
                 }
             ],
             "description": "An HTML5 parser and serializer.",
-            "homepage": "https://masterminds.github.io/html5-php",
+            "homepage": "http://masterminds.github.io/html5-php",
             "keywords": [
                 "HTML5",
                 "dom",
@@ -2550,7 +2653,7 @@
                 {
                     "name": "Mathias Verraes",
                     "email": "mathias@verraes.net",
-                    "homepage": "https://verraes.net"
+                    "homepage": "http://verraes.net"
                 },
                 {
                     "name": "Márk Sági-Kazár",
@@ -2562,7 +2665,7 @@
                 }
             ],
             "description": "PHP implementation of Fowler's Money pattern",
-            "homepage": "https://moneyphp.org",
+            "homepage": "http://moneyphp.org",
             "keywords": [
                 "Value Object",
                 "money",
@@ -2798,7 +2901,7 @@
                 }
             ],
             "description": "Common reflection classes used by phpdocumentor to reflect the code structure",
-            "homepage": "https://www.phpdoc.org",
+            "homepage": "http://www.phpdoc.org",
             "keywords": [
                 "FQSEN",
                 "phpDocumentor",
@@ -3049,11 +3152,11 @@
                 {
                     "name": "Bulat Shakirzyanov",
                     "email": "mallluhuct@gmail.com",
-                    "homepage": "https://avalanche123.com"
+                    "homepage": "http://avalanche123.com"
                 }
             ],
             "description": "Image processing for PHP 5.3",
-            "homepage": "https://imagine.readthedocs.org/",
+            "homepage": "http://imagine.readthedocs.org/",
             "keywords": [
                 "drawing",
                 "graphics",
@@ -3314,7 +3417,7 @@
             "authors": [
                 {
                     "name": "PHP-FIG",
-                    "homepage": "https://www.php-fig.org/"
+                    "homepage": "http://www.php-fig.org/"
                 }
             ],
             "description": "Standard interfaces for event handling.",
@@ -3540,6 +3643,77 @@
                 "simple-cache"
             ],
             "time": "2021-10-29T13:26:27+00:00"
+        },
+        {
+            "name": "putyourlightson/craft-sprig",
+            "version": "3.5.2",
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/putyourlightson/craft-sprig/zipball/5a312139592cdf30bcf0146839dca96a2fd0512a",
+                "reference": "5a312139592cdf30bcf0146839dca96a2fd0512a",
+                "shasum": ""
+            },
+            "require": {
+                "craftcms/cms": "^5.0",
+                "nystudio107/craft-code-editor": "^1.0",
+                "php": "^8.2",
+                "putyourlightson/craft-sprig-core": "^3.5.3"
+            },
+            "type": "craft-plugin",
+            "extra": {
+                "name": "Sprig",
+                "handle": "sprig",
+                "developer": "PutYourLightsOn",
+                "developerUrl": "https://putyourlightson.com/",
+                "documentationUrl": "https://putyourlightson.com/plugins/sprig",
+                "changelogUrl": "https://raw.githubusercontent.com/putyourlightson/craft-sprig/develop/CHANGELOG.md",
+                "class": "putyourlightson\\sprig\\plugin\\Sprig"
+            },
+            "autoload": {
+                "psr-4": {
+                    "putyourlightson\\sprig\\plugin\\": "src/"
+                }
+            },
+            "license": [
+                "mit"
+            ],
+            "description": "A reactive Twig component framework for Craft.",
+            "support": {
+                "docs": "https://putyourlightson.com/plugins/sprig",
+                "source": "https://github.com/putyourlightson/craft-sprig",
+                "issues": "https://github.com/putyourlightson/craft-sprig/issues"
+            },
+            "time": "2025-01-19T13:58:38+00:00"
+        },
+        {
+            "name": "putyourlightson/craft-sprig-core",
+            "version": "3.5.3",
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/putyourlightson/craft-sprig-core/zipball/c6a1daf31d5391dc89c1a2ab4dc7e7556f7b3c60",
+                "reference": "c6a1daf31d5391dc89c1a2ab4dc7e7556f7b3c60",
+                "shasum": ""
+            },
+            "require": {
+                "craftcms/cms": "^5.0",
+                "php": "^8.2"
+            },
+            "type": "yii-module",
+            "autoload": {
+                "psr-4": {
+                    "putyourlightson\\sprig\\": "src/"
+                }
+            },
+            "license": [
+                "mit"
+            ],
+            "description": "A reactive Twig component framework for Craft.",
+            "support": {
+                "docs": "https://github.com/putyourlightson/craft-sprig-core",
+                "source": "https://github.com/putyourlightson/craft-sprig-core",
+                "issues": "https://github.com/putyourlightson/craft-sprig-core/issues"
+            },
+            "time": "2025-01-19T13:53:26+00:00"
         },
         {
             "name": "ralouphie/getallheaders",
@@ -5896,7 +6070,7 @@
                 {
                     "name": "Fabien Potencier",
                     "email": "fabien@symfony.com",
-                    "homepage": "https://fabien.potencier.org",
+                    "homepage": "http://fabien.potencier.org",
                     "role": "Lead Developer"
                 },
                 {
@@ -6030,7 +6204,7 @@
             "authors": [
                 {
                     "name": "EllisLab Dev Team",
-                    "homepage": "https://ellislab.com/"
+                    "homepage": "http://ellislab.com/"
                 },
                 {
                     "name": "Lars Moelleken",
@@ -6123,7 +6297,7 @@
             "authors": [
                 {
                     "name": "Lars Moelleken",
-                    "homepage": "https://www.moelleken.org/"
+                    "homepage": "http://www.moelleken.org/"
                 }
             ],
             "description": "email-check (syntax, dns, trash, ...) library",
@@ -6223,11 +6397,11 @@
                 },
                 {
                     "name": "Hamid Sarfraz",
-                    "homepage": "https://pageconfig.com/"
+                    "homepage": "http://pageconfig.com/"
                 },
                 {
                     "name": "Lars Moelleken",
-                    "homepage": "https://www.moelleken.org/"
+                    "homepage": "http://www.moelleken.org/"
                 }
             ],
             "description": "Portable UTF-8 library - performance optimized (unicode) string functions for php.",
@@ -6266,7 +6440,7 @@
             "authors": [
                 {
                     "name": "Lars Moelleken",
-                    "homepage": "https://www.moelleken.org/"
+                    "homepage": "http://www.moelleken.org/"
                 }
             ],
             "description": "Stop-Words via PHP",
@@ -6315,7 +6489,7 @@
                 {
                     "name": "Daniel St. Jules",
                     "email": "danielst.jules@gmail.com",
-                    "homepage": "https://www.danielstjules.com",
+                    "homepage": "http://www.danielstjules.com",
                     "role": "Maintainer"
                 },
                 {
@@ -6368,7 +6542,7 @@
                 {
                     "name": "Johnny Broadway",
                     "email": "johnny@johnnybroadway.com",
-                    "homepage": "https://www.johnnybroadway.com/"
+                    "homepage": "http://www.johnnybroadway.com/"
                 },
                 {
                     "name": "Lars Moelleken",
@@ -6644,7 +6818,7 @@
                 },
                 {
                     "name": "Maurizio Domba",
-                    "homepage": "https://mdomba.info/",
+                    "homepage": "http://mdomba.info/",
                     "role": "Core framework development"
                 },
                 {
@@ -6656,7 +6830,7 @@
                 {
                     "name": "Timur Ruziev",
                     "email": "resurtm@gmail.com",
-                    "homepage": "https://resurtm.com/",
+                    "homepage": "http://resurtm.com/",
                     "role": "Core framework development"
                 },
                 {
@@ -6672,7 +6846,7 @@
                 {
                     "name": "Boudewijn Vahrmeijer",
                     "email": "info@dynasource.eu",
-                    "homepage": "https://dynasource.eu",
+                    "homepage": "http://dynasource.eu",
                     "role": "Core framework development"
                 }
             ],
