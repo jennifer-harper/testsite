@@ -2,10 +2,11 @@
 {% set query = query ?? '' %}
 
 {% if sprig.isInclude %}
-    <input sprig type="text" name="query" value="{{ query }}"
-        s-trigger="keyup changed delay:300ms" 
-        s-target="#results"
-    >
+    <input sprig 
+       s-target="#results"
+       s-trigger="keyup changed delay:300ms"
+       s-request-url="{{ siteUrl('search') }}" 
+       type="text" name="query" value="{{ query }}">
 
     <div id="results">
     
