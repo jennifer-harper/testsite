@@ -13,20 +13,9 @@
                 <div> {{ entry.testCkeditor }}</div>
                 <p> {{ entry.testText }}</p>
                    
-                <div>
+                {# <div>
                     {{ sprig('_components/search.twig') }}
-                </div>
+                </div> #}
             {% endif %}
-
-
-             <div class="contained-content py-2 py-sm-vw-sm">
-        <div class="contain d-flex flex-column align-items-center">
-        <h1>Thank you</h1> 
-        <p>Thanks for your email, {{ craft.app.request.getQueryParam('from') }}, we will get back to you as soon as possible</p> 
-         <div class="">
-            <a href="{{siteUrl}}" role="button" class="btn btn-cust-teal">Home page</a>
-        </div>
-    </div>
-</div>
     {% endfor %} 
 {% endblock %}

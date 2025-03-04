@@ -1,4 +1,4 @@
-dateModified: 1741052201
+dateModified: 1741054553
 email:
   fromEmail: $EMAIL
   fromName: testsite
@@ -22,29 +22,10 @@ plugins:
     edition: standard
     enabled: true
     schemaVersion: 3.0.0.0
-  contact-form:
-    edition: standard
-    enabled: true
-    schemaVersion: 1.0.0
-    settings:
-      allowAttachments: ''
-      allowedMessageFields: null
-      prependSender: 'On behalf of'
-      prependSubject: 'New message from testsite'
-      successFlashMessage: 'Your message has been sent.'
-      toEmail: $EMAIL
   copy:
     edition: standard
     enabled: true
     schemaVersion: 1.0.0
-  mailgun:
-    edition: standard
-    enabled: true
-    schemaVersion: 1.0.0
-  sprig:
-    edition: standard
-    enabled: true
-    schemaVersion: 1.0.1
   webhooks:
     edition: standard
     enabled: true
