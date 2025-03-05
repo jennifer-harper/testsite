@@ -1,0 +1,33 @@
+{% extends "_layout.twig" %} 
+{% set bodyAttributes ={ class: "work" } %} 
+{% set docTitle = entry.title %} 
+{# {% set metaDesc = entry.metaDescription %}  #}
+
+{% block content %} 
+
+    <div class="p-[20px] lg:p-[4vw]">
+        <div class="w-full pb-[5%]">
+            {% if entry.title %} 
+                <h1>{{entry.title}}</h1>
+            {% endif %} 
+        </div>
+
+        <div class="flex flex-column md:flex-row">
+            <div class="w-full md:w-1/2 lg:w-1/3 md:pe-[6%]">
+                {% if entry.projectSummary %} 
+                    {{entry.projectSummary}}
+                {% endif %}
+            </div>
+             <div class="w-full md:w-1/2 lg:w-2/3">
+
+                {% set images = entry.projectImages.all() %}
+                {% if images %}
+                    {% for image in images %}
+                        <img src="{{ image.getUrl() }}" class="w-full {% if loop.last %}mb-0{% else %}mb-[20px]{% endif %}"  alt="{{ image.alt|default('Placeholder') }}">
+                    {% endfor %}
+                {% endif %}
+            </div>
+        </div>
+    </div>
+
+{% endblock %}

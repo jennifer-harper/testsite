@@ -54,7 +54,7 @@ fieldLayouts:
           -
             dateAdded: '2025-03-03T23:36:59+00:00'
             elementCondition: null
-            fieldUid: 4c86be29-2c47-4966-b320-1cdae9b25580 # Test CKEditor
+            fieldUid: 4c86be29-2c47-4966-b320-1cdae9b25580 # Project Summary
             handle: null
             includeInCards: false
             instructions: null

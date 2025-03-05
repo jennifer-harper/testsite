@@ -1,0 +1,12 @@
+{% set navSegment = craft.app.request.getSegment(1) %}
+
+<nav>
+  <ul>
+    <li>
+      <a href="{{ url('/') }}" class="{{ navSegment is empty ? 'active' : 'inactive' }}">Home</a>
+    </li>
+    <li>
+      <a href="{{ url('second') }}" class="{{ navSegment == 'blog' ? 'active' : 'inactive' }}">Second</a>
+    </li>
+  </ul>
+</nav>

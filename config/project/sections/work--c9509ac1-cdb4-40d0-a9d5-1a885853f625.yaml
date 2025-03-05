@@ -1,0 +1,31 @@
+defaultPlacement: end
+enableVersioning: true
+entryTypes:
+  -
+    uid: eb2b13c2-2a0a-4eba-9f97-9fc580c4bae1 # Work
+handle: work
+maxAuthors: 1
+name: Work
+previewTargets:
+  -
+    __assoc__:
+      -
+        - label
+        - 'Primary entry page'
+      -
+        - urlFormat
+        - '{url}'
+      -
+        - refresh
+        - '1'
+propagationMethod: all
+siteSettings:
+  a42aa75e-70e1-44a8-867b-71f11ba1bc16: # testsite
+    enabledByDefault: true
+    hasUrls: true
+    template: _work/entry.twig
+    uriFormat: '{slug}'
+structure:
+  maxLevels: null
+  uid: 87ca85c5-0aa6-4725-a008-50c5ea3437d7
+type: structure
