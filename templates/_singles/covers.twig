@@ -1,0 +1,22 @@
+{% extends "_layout.twig" %} 
+{% set bodyAttributes ={ class: "covers" } %} 
+{% set docTitle = entry.title %} 
+{# {% set metaDesc = entry.metaDescription %}  #}
+
+{% set brandCategory = craft.categories()
+    .group('projects')
+    .slug('covers')
+    .one() %}
+
+{% set page = craft.entries()
+    .section('work')
+    .relatedTo(brandCategory)
+    .all() %}
+
+{% block content %} 
+     <div class="columns-3 gap-0 bg-gray-900">
+        {% for entry in page %} 
+             {% include '_components/project-grid' %}
+        {% endfor %} 
+    </div>
+{% endblock %}

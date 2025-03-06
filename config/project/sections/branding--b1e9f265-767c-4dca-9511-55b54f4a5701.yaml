@@ -3,9 +3,9 @@ enableVersioning: true
 entryTypes:
   -
     uid: 7bf5cf40-ee14-4355-8aab-b5de30475736 # Home
-handle: second
+handle: branding
 maxAuthors: 1
-name: Second
+name: Branding
 previewTargets:
   -
     __assoc__:
@@ -23,6 +23,6 @@ siteSettings:
   a42aa75e-70e1-44a8-867b-71f11ba1bc16: # testsite
     enabledByDefault: true
     hasUrls: true
-    template: _singles/second.twig
-    uriFormat: second
+    template: _singles/branding.twig
+    uriFormat: branding
 type: single

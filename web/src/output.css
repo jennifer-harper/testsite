@@ -1093,6 +1093,9 @@
   .bg-red-500\/\[50\%\] {
     background-color: color-mix(in oklab, var(--color-red-500) 50%, transparent);
   }
+  .bg-white {
+    background-color: var(--color-white);
+  }
   .-bg-conic {
     --tw-gradient-position: in oklab;
     background-image: conic-gradient(var(--tw-gradient-stops));
@@ -1258,6 +1261,9 @@
   }
   .object-top {
     object-position: top;
+  }
+  .p-\[10px\] {
+    padding: 10px;
   }
   .p-\[20px\] {
     padding: 20px;
@@ -1862,11 +1868,6 @@
       }
     }
   }
-  .md\:fixed {
-    @media (width >= 48rem) {
-      position: fixed;
-    }
-  }
   .md\:w-1\/2 {
     @media (width >= 48rem) {
       width: calc(1/2 * 100%);
@@ -1892,19 +1893,9 @@
       width: calc(2/3 * 100%);
     }
   }
-  .lg\:flex-row {
-    @media (width >= 64rem) {
-      flex-direction: row;
-    }
-  }
   .lg\:p-\[4vw\] {
     @media (width >= 64rem) {
       padding: 4vw;
-    }
-  }
-  .lg\:pe-\[6\%\] {
-    @media (width >= 64rem) {
-      padding-inline-end: 6%;
     }
   }
 }
