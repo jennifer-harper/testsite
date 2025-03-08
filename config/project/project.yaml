@@ -1,4 +1,4 @@
-dateModified: 1741402010
+dateModified: 1741417864
 email:
   fromEmail: $EMAIL
   fromName: testsite
@@ -33,6 +33,7 @@ meta:
     c9509ac1-cdb4-40d0-a9d5-1a885853f625: Work # Work
     d5d48233-e9b4-49a6-9c43-d1dd76c6da17: Images # Images
     d2018014-3ebf-4ef5-bfe1-66c81ea3f36d: 'Image Alt Text' # Image Alt Text
+    db4786ac-4cbe-45fc-beac-07d05df1c1b6: 'For Img Gallery' # For Img Gallery
     eb2b13c2-2a0a-4eba-9f97-9fc580c4bae1: Work # Work
     fe41ed4e-53fb-43d5-bd31-9ebfd20ba77d: Projects # Projects
 plugins:

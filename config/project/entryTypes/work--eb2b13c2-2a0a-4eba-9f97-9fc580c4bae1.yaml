@@ -131,6 +131,22 @@ fieldLayouts:
             userCondition: null
             warning: null
             width: 100
+          -
+            dateAdded: '2025-03-08T06:46:53+00:00'
+            elementCondition: null
+            fieldUid: db4786ac-4cbe-45fc-beac-07d05df1c1b6 # For Img Gallery
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: ca05bb4b-677f-4af1-aa5a-07fe19ddbc42
+            userCondition: null
+            warning: null
+            width: 100
         name: Content
         uid: e500ff94-a42b-43cf-9a50-52c203545514
         userCondition: null
