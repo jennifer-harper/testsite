@@ -1,4 +1,5 @@
 /*! tailwindcss v4.0.9 | MIT License | https://tailwindcss.com */
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 @layer theme, base, components, utilities;
 @layer theme {
   :root, :host {
@@ -7,7 +8,6 @@
       "Courier New", monospace;
     --color-red-500: oklch(0.637 0.237 25.331);
     --color-gray-800: oklch(0.278 0.033 256.848);
-    --color-gray-900: oklch(0.21 0.034 264.665);
     --color-white: #fff;
     --spacing: 0.25rem;
     --text-lg: 1.125rem;
@@ -449,12 +449,6 @@
   .aspect-square {
     aspect-ratio: 1 / 1;
   }
-  .h-\[80vh\] {
-    height: 80vh;
-  }
-  .h-\[100vh\] {
-    height: 100vh;
-  }
   .h-\[100vw\] {
     height: 100vw;
   }
@@ -670,9 +664,6 @@
   .appearance-none {
     appearance: none;
   }
-  .columns-3 {
-    columns: 3;
-  }
   .columns-auto {
     columns: auto;
   }
@@ -870,9 +861,6 @@
   }
   .justify-items-stretch {
     justify-items: stretch;
-  }
-  .gap-0 {
-    gap: calc(var(--spacing) * 0);
   }
   .space-y-reverse {
     :where(& > :not(:last-child)) {
@@ -1093,9 +1081,6 @@
   }
   .bg-gray-800 {
     background-color: var(--color-gray-800);
-  }
-  .bg-gray-900 {
-    background-color: var(--color-gray-900);
   }
   .bg-red-500 {
     background-color: var(--color-red-500);
