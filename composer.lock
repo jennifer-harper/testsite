@@ -4,48 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "4b6aa514a9a2cc0d065704a369898f02",
+    "content-hash": "31b41e66756caf1dc0095c4a40e2e2c5",
     "packages": [
-        {
-            "name": "acalvino4/craft-easy-image",
-            "version": "2.0.1",
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/acalvino4/craft-easy-image/zipball/df54afe76230602706bca4732c4d2906861de9f9",
-                "reference": "df54afe76230602706bca4732c4d2906861de9f9",
-                "shasum": ""
-            },
-            "require": {
-                "craftcms/cms": "^5.0.0",
-                "dodecastudio/craft-blurhash": "^3.0.0",
-                "php": ">=8.2"
-            },
-            "type": "craft-plugin",
-            "extra": {
-                "handle": "easy-image",
-                "name": "Easy Image",
-                "developer": "acalvino4",
-                "documentationUrl": "https://github.com/acalvino4/craft-easy-image",
-                "class": "acalvino4\\easyimage\\Plugin"
-            },
-            "autoload": {
-                "psr-4": {
-                    "acalvino4\\easyimage\\": "src/",
-                    "Tests\\": "tests/"
-                }
-            },
-            "license": [
-                "mit"
-            ],
-            "description": "Maximally optimized images with minimal config",
-            "support": {
-                "issues": "https://github.com/acalvino4/craft-easy-image/issues?state=open",
-                "source": "https://github.com/acalvino4/craft-easy-image",
-                "docs": "https://github.com/acalvino4/craft-easy-image",
-                "rss": "https://github.com/acalvino4/craft-easy-image/releases.atom"
-            },
-            "time": "2024-07-20T19:23:08+00:00"
-        },
         {
             "name": "albertofem/rsync-lib",
             "version": "1.0.0",
@@ -1435,64 +1395,6 @@
             "time": "2024-02-05T11:56:58+00:00"
         },
         {
-            "name": "dodecastudio/craft-blurhash",
-            "version": "3.0.3",
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/dodecastudio/craft-blurhash/zipball/6ecf95c4aeea97e983656f75f6cf44b1417e7e02",
-                "reference": "6ecf95c4aeea97e983656f75f6cf44b1417e7e02",
-                "shasum": ""
-            },
-            "require": {
-                "craftcms/cms": "^3.0|^4.0|^5.0",
-                "kornrunner/blurhash": "^1.2",
-                "php": ">=7.4",
-                "treeware/plant": "^0.1.0"
-            },
-            "type": "craft-plugin",
-            "extra": {
-                "treeware": [],
-                "name": "BlurHash",
-                "handle": "blur-hash",
-                "developer": "Dodeca Studio",
-                "developerUrl": "https://dodeca.studio",
-                "documentationUrl": "https://github.com/dodecastudio/craft-blurhash/blob/main/README.md",
-                "changelogUrl": "https://github.com/dodecastudio/craft-blurhash/blob/main/CHANGELOG.md",
-                "class": "dodecastudio\\blurhash\\BlurHash",
-                "components": {
-                    "services": "dodecastudio\\blurhash\\services\\BlurHashService"
-                }
-            },
-            "autoload": {
-                "psr-4": {
-                    "dodecastudio\\blurhash\\": "src/"
-                }
-            },
-            "license": [
-                "proprietary"
-            ],
-            "authors": [
-                {
-                    "name": "Dodeca Studio",
-                    "homepage": "https://dodeca.studio"
-                }
-            ],
-            "description": "Render a BlurHash from a given image.",
-            "keywords": [
-                "blurhash",
-                "cms",
-                "craft",
-                "craft-plugin",
-                "craftcms"
-            ],
-            "support": {
-                "source": "https://github.com/dodecastudio/craft-blurhash",
-                "docs": "https://github.com/dodecastudio/craft-blurhash/blob/main/README.md",
-                "issues": "https://github.com/dodecastudio/craft-blurhash/issues"
-            },
-            "time": "2024-12-10T18:07:21+00:00"
-        },
-        {
             "name": "egulias/email-validator",
             "version": "4.0.3",
             "dist": {
@@ -2398,37 +2300,6 @@
                 "schema"
             ],
             "time": "2024-07-06T21:00:26+00:00"
-        },
-        {
-            "name": "kornrunner/blurhash",
-            "version": "v1.2.2",
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/kornrunner/php-blurhash/zipball/bc8a4596cb0a49874f0158696a382ab3933fefe4",
-                "reference": "bc8a4596cb0a49874f0158696a382ab3933fefe4",
-                "shasum": ""
-            },
-            "require": {
-                "php": "^7.3|^8.0"
-            },
-            "type": "library",
-            "autoload": {
-                "psr-4": {
-                    "kornrunner\\Blurhash\\": "src"
-                }
-            },
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Boris Momčilović",
-                    "email": "boris.momcilovic@gmail.com"
-                }
-            ],
-            "description": "Pure PHP implementation of Blurhash",
-            "homepage": "https://github.com/kornrunner/php-blurhash",
-            "time": "2022-07-13T19:38:39+00:00"
         },
         {
             "name": "lcobucci/clock",
@@ -6165,29 +6036,6 @@
             "time": "2019-11-14T14:08:48+00:00"
         },
         {
-            "name": "treeware/plant",
-            "version": "0.1.0",
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/TreewareEarth/plant/zipball/bc1ff8eb350ce74b3fe0bd7ab80bc332d1096599",
-                "reference": "bc1ff8eb350ce74b3fe0bd7ab80bc332d1096599",
-                "shasum": ""
-            },
-            "require": {
-                "composer-plugin-api": "^1.0|^2.0"
-            },
-            "type": "composer-plugin",
-            "extra": {
-                "class": "Treeware\\Plant\\Plugin"
-            },
-            "autoload": {
-                "psr-4": {
-                    "Treeware\\Plant\\": "src/"
-                }
-            },
-            "time": "2021-05-04T17:17:46+00:00"
-        },
-        {
             "name": "twig/twig",
             "version": "v3.15.0",
             "dist": {
@@ -7692,10 +7540,10 @@
     ],
     "aliases": [],
     "minimum-stability": "dev",
-    "stability-flags": [],
+    "stability-flags": {},
     "prefer-stable": true,
     "prefer-lowest": false,
-    "platform": [],
-    "platform-dev": [],
+    "platform": {},
+    "platform-dev": {},
     "plugin-api-version": "2.6.0"
 }
