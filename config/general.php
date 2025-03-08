@@ -24,8 +24,5 @@
      ->aliases([
          '@webroot' => dirname(__DIR__) . '/web',
      ])
-     // Set the control panel URL trigger to 'admin' (you can customize this if desired)
-     ->cpTrigger('admin')
-     // Force HTTPS for all control panel requests
-     ->forceHttps(true)
+
  ;
