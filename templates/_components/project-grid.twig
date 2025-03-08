@@ -5,7 +5,11 @@
        <div class="media-box">
         {% set image = entry.mainImage.one() %}
         {% if image %}
-            <img src="{{ image.getUrl() }}" class="group-hover:opacity-10 transition delay-150 duration-300 ease-in w-full"  loading="lazy" alt="{{ image.alt|default('Placeholder') }}">
+            <img src="{{ image.getUrl() }}" 
+            class="group-hover:opacity-10 transition delay-150 duration-300 ease-in w-full"  
+            loading="lazy" 
+            alt="{{ image.alt|default('Placeholder') }}"
+            >
         {% endif %}
         </div>
 
