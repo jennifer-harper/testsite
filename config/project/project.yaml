@@ -1,4 +1,4 @@
-dateModified: 1741294087
+dateModified: 1741402010
 email:
   fromEmail: $EMAIL
   fromName: testsite
@@ -19,6 +19,7 @@ meta:
   __names__:
     0ca2aadd-5e32-458e-9b96-c3bbabef37f7: Simple # Simple
     4c86be29-2c47-4966-b320-1cdae9b25580: 'Project Summary' # Project Summary
+    5ef025d8-ecdb-4814-8bf8-98af0b96d991: 'Image ID' # Image ID
     6d0dd73a-7698-42f4-8892-80a464f6adfb: 'Main Image' # Main Image
     07b62c2a-dc70-4052-a84e-f5257e00500d: 'Project Category' # Project Category
     7bf5cf40-ee14-4355-8aab-b5de30475736: Home # Home
@@ -31,6 +32,7 @@ meta:
     a42aa75e-70e1-44a8-867b-71f11ba1bc16: testsite # testsite
     c9509ac1-cdb4-40d0-a9d5-1a885853f625: Work # Work
     d5d48233-e9b4-49a6-9c43-d1dd76c6da17: Images # Images
+    d2018014-3ebf-4ef5-bfe1-66c81ea3f36d: 'Image Alt Text' # Image Alt Text
     eb2b13c2-2a0a-4eba-9f97-9fc580c4bae1: Work # Work
     fe41ed4e-53fb-43d5-bd31-9ebfd20ba77d: Projects # Projects
 plugins:

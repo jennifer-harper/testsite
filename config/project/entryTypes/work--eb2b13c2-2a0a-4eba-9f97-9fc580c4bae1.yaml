@@ -36,6 +36,38 @@ fieldLayouts:
             warning: null
             width: 100
           -
+            dateAdded: '2025-03-08T02:30:53+00:00'
+            elementCondition: null
+            fieldUid: 5ef025d8-ecdb-4814-8bf8-98af0b96d991 # Image ID
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 40322961-5f01-4d6a-b7fa-cd9a3ce62a94
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            dateAdded: '2025-03-08T02:46:50+00:00'
+            elementCondition: null
+            fieldUid: d2018014-3ebf-4ef5-bfe1-66c81ea3f36d # Image Alt Text
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 053d57c8-a357-4388-bd6f-b16f6502d8bf
+            userCondition: null
+            warning: null
+            width: 100
+          -
             dateAdded: '2025-03-06T19:49:01+00:00'
             elementCondition: null
             fieldUid: 07b62c2a-dc70-4052-a84e-f5257e00500d # Project Category

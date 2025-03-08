@@ -3,16 +3,16 @@
 {% for entry in page %} 
     <a href="{{ entry.slug }}" class="w-full h-[100vw] md:w-[50vw] md:h-[50vw] lg:w-[33.3vw] lg:h-[33.3vw] relative group">
        <div class="media-box">
-        {% set image = entry.mainImage.one() %}
-        {% if image %}
-            <img src="{{ image.getUrl() }}" 
+        {# {% set image = entry.mainImage.one() %}
+        {% if image %} #}
+            <img src="https://imagedelivery.net/FfNXKd05SW9wypnlOimQoA/{{entry.imageID}}/public" 
             class="group-hover:opacity-10 transition delay-150 duration-300 ease-in w-full"  
             loading="lazy" 
-            alt="{{ image.alt|default('Placeholder') }}"
+            alt="{{ entry.imageAltText|default('Placeholder') }}"
             width="33vw"
             height="33vw"
             >
-        {% endif %}
+        {# {% endif %} #}
         </div>
 
         <div class="w-full h-full absolute top-0 left-0 flex items-center justify-center">
