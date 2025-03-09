@@ -13,11 +13,11 @@ previewTargets:
         - label
         - 'Primary entry page'
       -
-        - urlFormat
-        - '{url}'
-      -
         - refresh
         - '1'
+      -
+        - urlFormat
+        - '{url}'
 propagationMethod: all
 siteSettings:
   a42aa75e-70e1-44a8-867b-71f11ba1bc16: # testsite

@@ -21,15 +21,25 @@
 
                 {% set images = entry.projectImages %}
                 {% if images | length %}
-                        {% for image in images %}
-                            <img src="{{ image.getUrl() }}" class="w-full {% if loop.last %}mb-0{% else %}mb-[20px]{% endif %}"  alt="{{ image.alt|default('Placeholder') }}">
-                        {% endfor %}
-                    {% else %}
-                        {% for row in entry.forImgGallery %}
-                            <img src="https://imagedelivery.net/FfNXKd05SW9wypnlOimQoA/{{row.imgUrl}}/public" class="w-full {% if loop.last %}mb-0{% else %}mb-[20px]{% endif %} "  alt="{{ row.altText|default('Placeholder') }}">
-                        {% endfor %}
+                    {% for image in images %}
+                        {% if image and image.imageCode %}
+                            <img src="https://imagedelivery.net/FfNXKd05SW9wypnlOimQoA/{{ image.imageCode }}/public" 
+                                class="group-hover:opacity-10 transition delay-150 duration-300 ease-in w-full"  
+                                loading="lazy" 
+                                alt="{{ image.alt | default('Placeholder') }}"
+                                width="33vw"
+                                height="33vw">
+                        {% else %}
+                            <img src="{{image.getUrl()}}" 
+                                class="group-hover:opacity-10 transition delay-150 duration-300 ease-in w-full"  
+                                loading="lazy" 
+                                 alt="{{ image.alt | default('Placeholder') }}"
+                                width="33vw" 
+                                height="33vw">
+                        {% endif %}
+                    {% endfor %}
+                {% endif %}
 
-                 {% endif %}
                 
             </div>
         </div>

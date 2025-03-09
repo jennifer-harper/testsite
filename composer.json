@@ -6,6 +6,7 @@
     "craftcms/cms": "5.6.11",
     "craftcms/contact-form": "3.1.0",
     "craftcms/contact-form-honeypot": "2.1.0",
+    "craftcms/feed-me": "6.7.0",
     "craftcms/webhooks": "3.1.0",
     "fortrabbit/craft-copy": "^3.0",
     "putyourlightson/craft-sprig": "3.5.2",

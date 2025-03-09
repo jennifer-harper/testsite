@@ -1,7 +1,7 @@
 columnSuffix: null
-handle: imageAltText
+handle: imageCode
 instructions: null
-name: 'Image Alt Text'
+name: 'Image Code'
 searchable: false
 settings:
   byteLimit: null
