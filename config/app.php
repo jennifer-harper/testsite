@@ -21,7 +21,8 @@
  */
 
 use craft\helpers\App;
+use modules\cloudflareimages\Module;
 
 return [
-    'id' => App::env('CRAFT_APP_ID') ?: 'CraftCMS',
+    'id' => App::env('CRAFT_APP_ID') ?: 'CraftCMS', 'modules' => ['cloudflare-images' => Module::class], 'bootstrap' => ['cloudflare-images'],
 ];
