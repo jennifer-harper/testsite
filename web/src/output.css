@@ -357,6 +357,12 @@
       max-width: 96rem !important;
     }
   }
+  .mb-0 {
+    margin-bottom: calc(var(--spacing) * 0);
+  }
+  .mb-\[20px\] {
+    margin-bottom: 20px;
+  }
   .box-border {
     box-sizing: border-box;
   }
@@ -1088,6 +1094,9 @@
   }
   .bg-red-500\/\[50\%\] {
     background-color: color-mix(in oklab, var(--color-red-500) 50%, transparent);
+  }
+  .bg-white {
+    background-color: var(--color-white);
   }
   .-bg-conic {
     --tw-gradient-position: in oklab;
@@ -1899,9 +1908,9 @@
       padding-bottom: calc(var(--spacing) * 0);
     }
   }
-  .lg\:h-\[33vw\] {
+  .lg\:h-\[33\.3vw\] {
     @media (width >= 64rem) {
-      height: 33vw;
+      height: 33.3vw;
     }
   }
   .lg\:w-1\/3 {
@@ -1914,9 +1923,9 @@
       width: calc(2/3 * 100%);
     }
   }
-  .lg\:w-\[33vw\] {
+  .lg\:w-\[33\.3vw\] {
     @media (width >= 64rem) {
-      width: 33vw;
+      width: 33.3vw;
     }
   }
   .lg\:p-\[4vw\] {

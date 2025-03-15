@@ -1,0 +1,28 @@
+columnSuffix: null
+handle: testCkeditor
+instructions: null
+name: 'Test CKEditor'
+searchable: true
+settings:
+  availableTransforms: ''
+  availableVolumes: ''
+  ckeConfig: 0ca2aadd-5e32-458e-9b96-c3bbabef37f7 # Simple
+  createButtonLabel: null
+  defaultTransform: null
+  entryTypes:
+    -
+      __assoc__:
+        -
+          - uid
+          - 7bf5cf40-ee14-4355-8aab-b5de30475736 # Home
+  purifierConfig: null
+  purifyHtml: true
+  showUnpermittedFiles: false
+  showUnpermittedVolumes: false
+  showWordCount: false
+  sourceEditingGroups:
+    - __ADMINS__
+  wordLimit: null
+translationKeyFormat: null
+translationMethod: none
+type: craft\ckeditor\Field
