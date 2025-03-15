@@ -1,0 +1,4 @@
+isPublic: true
+name: 'Public Schema'
+scope:
+  - 'productTypes.6d12e745-f7ac-48eb-966f-6f617ddad732:read' # Sorenmobler

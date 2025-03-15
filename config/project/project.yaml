@@ -1,27 +1,82 @@
-dateModified: 1740952370
+dateModified: 1742029924
 email:
-  fromEmail: jennnnifer.harper@gmail.com
+  fromEmail: $EMAIL
   fromName: testsite
+  replyToEmail: $EMAIL
+  template: null
+  transportSettings:
+    command: '/usr/local/bin/mailpit sendmail -t --smtp-addr 127.0.0.1:1025'
   transportType: craft\mail\transportadapters\Sendmail
+fs:
+  hardDisk:
+    hasUrls: true
+    name: 'Hard Disk'
+    settings:
+      path: '@webroot/uploads/images'
+    type: craft\fs\Local
+    url: '@web/uploads/images'
 meta:
   __names__:
+    0ca2aadd-5e32-458e-9b96-c3bbabef37f7: Simple # Simple
+    0cf939a8-dda4-466f-9778-fcfd27e35019: Primary # Primary
+    1e4e90ee-fbe8-44c6-beac-6d723717a1f3: New # New
+    4c86be29-2c47-4966-b320-1cdae9b25580: 'Project Summary' # Project Summary
+    5ef025d8-ecdb-4814-8bf8-98af0b96d991: 'Image ID' # Image ID
+    6d0dd73a-7698-42f4-8892-80a464f6adfb: 'Main Image' # Main Image
+    6d12e745-f7ac-48eb-966f-6f617ddad732: Sorenmobler # Sorenmobler
+    07b62c2a-dc70-4052-a84e-f5257e00500d: 'Project Category' # Project Category
+    7bf5cf40-ee14-4355-8aab-b5de30475736: Home # Home
     8f81e28d-8195-41d2-a911-205d5b098a9c: testsite # testsite
+    48f603ea-7278-4061-859a-0afac2307a2a: 'Image Code' # Image Code
+    54bb97fb-6afe-4483-8fca-87e3f717a825: Covers # Covers
+    70b1a4d4-64cc-4e95-ae39-8d0bda750301: Branding # Branding
+    89d4409e-0fd3-4580-b58d-9b358ee63728: 'Public Schema' # Public Schema
+    97d3dfc7-ca9f-40fb-9c60-eb3e8239136b: 'Test Text' # Test Text
+    7670ce0b-9802-430e-b33a-91d0defaa5a0: 'Project Images' # Project Images
+    25944076-2cd0-4fc7-b8bd-271b1dba48f3: Dummy # Dummy
+    a19d5dc6-7462-4a42-b009-e7aaf9c1cc04: Home # Home
     a42aa75e-70e1-44a8-867b-71f11ba1bc16: testsite # testsite
+    c9509ac1-cdb4-40d0-a9d5-1a885853f625: Work # Work
+    d5d48233-e9b4-49a6-9c43-d1dd76c6da17: Images # Images
+    eb2b13c2-2a0a-4eba-9f97-9fc580c4bae1: Work # Work
+    fe41ed4e-53fb-43d5-bd31-9ebfd20ba77d: Projects # Projects
 plugins:
+  ckeditor:
+    edition: standard
+    enabled: true
+    schemaVersion: 3.0.0.0
+  commerce:
+    edition: pro
+    enabled: true
+    licenseKey: E5DX6AVM5WLH4BR4KWCH0VN2
+    schemaVersion: 5.3.2.1
+  contact-form:
+    edition: standard
+    enabled: true
+    schemaVersion: 1.0.0
+  contact-form-honeypot:
+    edition: standard
+    enabled: true
+    schemaVersion: 1.0.0
   copy:
     edition: standard
     enabled: true
     schemaVersion: 1.0.0
+  feed-me:
+    edition: standard
+    enabled: true
+    schemaVersion: 5.1.1
+  sprig:
+    edition: standard
+    enabled: true
+    schemaVersion: 1.0.1
+  webhooks:
+    edition: standard
+    enabled: true
+    schemaVersion: 2.4.0
 system:
-  edition: solo
+  edition: pro
   live: true
   name: testsite
   schemaVersion: 5.6.0.2
   timeZone: America/Los_Angeles
-users:
-  allowPublicRegistration: false
-  defaultGroup: null
-  photoSubpath: null
-  photoVolumeUid: null
-  require2fa: false
-  requireEmailVerification: true

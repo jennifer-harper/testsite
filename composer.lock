@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "49f89d708d46fe10c19b526b0e677204",
+    "content-hash": "ecb1b442c3c755e0fc97d039da39fe60",
     "packages": [
         {
             "name": "albertofem/rsync-lib",
@@ -1191,11 +1191,11 @@
         },
         {
             "name": "craftcms/feed-me",
-            "version": "6.7.0",
+            "version": "6.8.0",
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/craftcms/feed-me/zipball/824a41692ed3692ae74837782cfb38a43e96cc3d",
-                "reference": "824a41692ed3692ae74837782cfb38a43e96cc3d",
+                "url": "https://api.github.com/repos/craftcms/feed-me/zipball/cdb3873fd96b941449eec82464284df476b1c52b",
+                "reference": "cdb3873fd96b941449eec82464284df476b1c52b",
                 "shasum": ""
             },
             "require": {
@@ -1245,7 +1245,7 @@
                 "docs": "https://docs.craftcms.com/feed-me/v6/",
                 "rss": "https://github.com/craftcms/feed-me/commits/master.atom"
             },
-            "time": "2025-02-07T19:19:35+00:00"
+            "time": "2025-03-15T04:08:02+00:00"
         },
         {
             "name": "craftcms/html-field",
