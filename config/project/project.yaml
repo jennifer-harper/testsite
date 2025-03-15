@@ -1,4 +1,4 @@
-dateModified: 1741563210
+dateModified: 1742026888
 email:
   fromEmail: $EMAIL
   fromName: testsite
@@ -23,6 +23,7 @@ meta:
   __names__:
     0ca2aadd-5e32-458e-9b96-c3bbabef37f7: Simple # Simple
     4c86be29-2c47-4966-b320-1cdae9b25580: 'Project Summary' # Project Summary
+    5bdf1c27-0203-4d01-8993-8d7e22526073: Dummy # Dummy
     5ef025d8-ecdb-4814-8bf8-98af0b96d991: 'Image ID' # Image ID
     6d0dd73a-7698-42f4-8892-80a464f6adfb: 'Main Image' # Main Image
     07b62c2a-dc70-4052-a84e-f5257e00500d: 'Project Category' # Project Category
@@ -32,11 +33,13 @@ meta:
     54bb97fb-6afe-4483-8fca-87e3f717a825: Covers # Covers
     70b1a4d4-64cc-4e95-ae39-8d0bda750301: Branding # Branding
     97d3dfc7-ca9f-40fb-9c60-eb3e8239136b: 'Test Text' # Test Text
+    106d0683-429a-481f-901b-2309bffc73ab: New # New
     7670ce0b-9802-430e-b33a-91d0defaa5a0: 'Project Images' # Project Images
     a19d5dc6-7462-4a42-b009-e7aaf9c1cc04: Home # Home
     a42aa75e-70e1-44a8-867b-71f11ba1bc16: testsite # testsite
     c9509ac1-cdb4-40d0-a9d5-1a885853f625: Work # Work
     d5d48233-e9b4-49a6-9c43-d1dd76c6da17: Images # Images
+    d47b4770-11ba-4db0-ab16-b1111df35ccf: Primary # Primary
     eb2b13c2-2a0a-4eba-9f97-9fc580c4bae1: Work # Work
     fe41ed4e-53fb-43d5-bd31-9ebfd20ba77d: Projects # Projects
 plugins:
@@ -44,6 +47,11 @@ plugins:
     edition: standard
     enabled: true
     schemaVersion: 3.0.0.0
+  commerce:
+    edition: pro
+    enabled: true
+    licenseKey: RYFUZBMPUNZRKERUOVW6R7A4
+    schemaVersion: 5.3.2.1
   contact-form:
     edition: standard
     enabled: true
@@ -69,7 +77,7 @@ plugins:
     enabled: true
     schemaVersion: 2.4.0
 system:
-  edition: solo
+  edition: pro
   live: true
   name: testsite
   schemaVersion: 5.6.0.2
